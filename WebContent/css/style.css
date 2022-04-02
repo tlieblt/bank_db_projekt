@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+img {
+	width: 800px;
+	height: auto;
+	display: block;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: orange;
+}
+
+.einlink {
+	margin: 10px;
+	border: 2px solid blue;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}

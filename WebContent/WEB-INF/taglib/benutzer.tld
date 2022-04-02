@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<taglib>
+	<tlibversion>1.1</tlibversion>
+	<jsp-version>2.0</jsp-version>
+	<short-name>Techies</short-name>
+
+
+
+	<tag>
+		<name>kontoAuswahl</name>
+		<tag-class>tags.KontoAuswahlTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+
+
+	<tag>
+		<name>kategorien</name>
+		<tag-class>tags.KategorieTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+
+	<tag>
+		<name>suchergebnisse</name>
+		<tag-class>tags.SuchTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<name>ueberweisungsliste</name>
+		<tag-class>tags.KontoUebersichtTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<name>erlaubteFunktionen</name>
+		<tag-class>tags.ErlaubteFunktionen</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+
+	<tag>
+		<name>message</name>
+		<tag-class>tags.MsgTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>msgArt</name>
+			<rtexprvalue>true</rtexprvalue>
+			<required>false</required>
+			<type>String</type>
+		</attribute>
+		<attribute>
+			<name>msg</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>String</type>
+		</attribute>
+	</tag>
+
+
+</taglib>
